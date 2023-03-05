@@ -1,0 +1,52 @@
+Entendendo o que é Git e sua importância 
+
+Software é feito de forma colaborativa. Um software não se faz sozinho.
+
+Git e Github são tecnologia completamente diferentes, porém complementares.
+
+Vantagens do Github.
+1 - Controle de versão.
+2 - Armazenamento em nuvem.
+3 - Trabalho em equipe.
+4 - Melhorar seu código.
+5 - Reconhecimento.
+
+
+ Navegação via command line interface e instalação 
+    - Comandos básicos para um bom desempenho no terminal 
+  O que vamos aprender:
+
+- Mudar de pastas
+- Listar as pastas
+- Criar pastas/arquivos
+- Deletar pastas/arquivos
+
+Digitando cd / no prompt (CMD) ele entra na pasta C
+Digitando cd Windows no prompt (CMD) ele entra na pasta Windows
+
+ - dir traz todos os arquivos, programas, pastas, etc contigos na pasta especifica.
+
+ - cd .. retorcede o passo dado.
+
+ - cls limpa o terminal (cmd) prompt
+
+ - TAB auto completa a entrada.
+   Exemplo:
+   Se no prompt c:> colocarmos cd W, apertando TAB ele completando o restante 
+   ficando c:> cd Windows
+
+Como criar uma pasta no prompt.
+ Usa-se o comando c:> mkdir (mais o nome) workspace.
+Assim se criou a pasta workspace
+ Apertando o enter se nada acontecer ou ser apresentado é sinal que a criação deu certo.
+
+  Para criar arquivo usa-se echo hello (nome do arquivo) > (redirecionador) hello.txt (nome arquivo mias extensão)
+
+  Para deletar conteudo da pasta usa-se o del mais neme do arquivo
+Ex:
+C:> del workspace
+ aparecerá Tem certeza (S/N)?
+
+  Para deletar o repositorio usa-se o rmdir mais nome do arquivo e as "flags" /S /Q
+Ex:
+C:> rmdir workspace /S /Q
